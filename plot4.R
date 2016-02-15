@@ -4,13 +4,7 @@ library(dplyr)
 
 ## Download and unzip datafile
 
-if (!file.exists("household_power_consumption.txt")) {
-	if (!file.exists("exdata_data_household_power_consumption.zip")) {
-            fileUrl = "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
-		download.file(fileUrl, "exdata_data_household_power_consumption.zip")	
-	}
-	unzip("exdata_data_household_power_consumption.zip")
-}
+c
 
 ## Read datafile and filter it
 
